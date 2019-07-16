@@ -62,7 +62,7 @@ const IS_STRING = 3
 
 // Start implements trigger.Trigger.Start
 func (t *NatsTrigger) Start() error {
-	nc, _ := nats.Connect(nats.DefaultURL)
+	nc, _ := nats.Connect("nats://10.103.1.115:4222")
 
 	for _, handler := range t.handlers {
 		//subject := handler.GetStringSetting("subject")
