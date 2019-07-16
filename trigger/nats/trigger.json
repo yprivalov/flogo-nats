@@ -1,8 +1,8 @@
 {
-  "name": "nats",
+  "name": "nats-yp",
   "version": "0.0.1",
   "type": "flogo:trigger",
-  "ref": "github.com/sandstorm/flogo-nats/trigger/nats",
+  "ref": "github.com/yprivalov/flogo-nats/trigger/nats",
   "description": "listen to a NATS subject (or multiple of them)",
   "author": "Sebastian Kurfuerst <sebastian.kurfuerst@sandstorm.de>",
   "settings":[
