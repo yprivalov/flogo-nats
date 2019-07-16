@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	nc, err := nats.Connect("nats://localhost:4222")
+	nc, err := nats.Connect("nats://10.103.1.115:4222")
 	if err != nil {
 		fmt.Println(err)
 	}
