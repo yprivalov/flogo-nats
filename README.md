@@ -1,4 +1,4 @@
 dep ensure
 
 
-flogo install github.com/sandstorm/flogo-nats/trigger/nats
+flogo install github.com/yprivalov/flogo-nats/trigger/nats
