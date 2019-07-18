@@ -1,5 +1,5 @@
 {
-  "name": "nats-yp",
+  "name": "nats-yp2",
   "version": "0.0.1",
   "type": "flogo:trigger",
   "ref": "github.com/yprivalov/flogo-nats/trigger/nats",
