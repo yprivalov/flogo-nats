@@ -67,7 +67,7 @@ func (t *NatsTrigger) Start() error {
 	for _, handler := range t.handlers {
 		//subject := handler.GetStringSetting("subject")
 
-		nc.Subscribe(">", func(m *nats.Msg) {
+		nc.Subscribe("channel.>", func(m *nats.Msg) {
 
 			jsonType := getJsonType(m.Data)
 			switch jsonType {
